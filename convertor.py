@@ -1,14 +1,14 @@
-# weight = float(input("enter ur weight: "))
-# unit = input ("Killogram or Pound (K or P)")
+weight = float(input("enter ur weight: "))
+unit = input ("Killogram or Pound (K or P)")
 
-# if unit == "K":
-#  weight = weight*2.205
-# elif unit == "P":
-#  weight = weight/2.205
-# else:
-#  print ("yout weight is nither K nor P")
+if unit == "K":
+ weight = weight*2.205
+elif unit == "P":
+ weight = weight/2.205
+else:
+ print ("yout weight is nither K nor P")
  
-# print (weight)
+print (weight)
 
 unit = input("is the unit is f or c: ")
 degree = float(input("enter your degree: ")) 
